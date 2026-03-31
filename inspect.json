@@ -1,0 +1,324 @@
+[
+    {
+        "Id": "7229231cceea597840d0b2f2529e163d59b43eea4497f1708e8b74eb6f39e7dd",
+        "Created": "2026-02-06T11:53:48.702029573Z",
+        "Path": "/bin/sh",
+        "Args": [
+            "-c",
+            "echo Container started\n trap \"exit 0\" 15\n \n exec \"$@\"\n while sleep 1 \u0026 wait $!; do :; done",
+            "-",
+            "sleep",
+            "infinity"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 642,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-03-16T16:46:02.621309258Z",
+            "FinishedAt": "2026-03-16T16:44:48.813959923Z"
+        },
+        "Image": "sha256:0aeda36d49ae20f2552e5ee33d12af78fd39585d0df0e28666c17fddfbe19f73",
+        "ResolvConfPath": "/var/lib/docker/containers/7229231cceea597840d0b2f2529e163d59b43eea4497f1708e8b74eb6f39e7dd/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/7229231cceea597840d0b2f2529e163d59b43eea4497f1708e8b74eb6f39e7dd/hostname",
+        "HostsPath": "/var/lib/docker/containers/7229231cceea597840d0b2f2529e163d59b43eea4497f1708e8b74eb6f39e7dd/hosts",
+        "LogPath": "/var/lib/docker/containers/7229231cceea597840d0b2f2529e163d59b43eea4497f1708e8b74eb6f39e7dd/7229231cceea597840d0b2f2529e163d59b43eea4497f1708e8b74eb6f39e7dd-json.log",
+        "Name": "/frappe_docker_devcontainer-frappe-1",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": [
+            "b11ddf23230bb97bb8f59e9a248e3dda67de55fdc806a9cd7761ad5da96cd32d",
+            "985ee181d3e6fd0dd71e5b1754ebd07ce6999dbf7760227676025213e0028be4",
+            "274f5619e5e0a110c0369428dc935dbc6d8da58fd614ac723f41d87ce2d82e4a",
+            "626d363577ce756fa69b3af1de81bb9750c7f4ef95f9aa299ca6d3c4c256d762"
+        ],
+        "HostConfig": {
+            "Binds": [
+                "\\\\wsl.localhost\\Ubuntu\\home\\sanjay\\frappe_docker:/workspace:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "frappe_docker_devcontainer_default",
+            "PortBindings": {
+                "8000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8000"
+                    }
+                ],
+                "8001/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8001"
+                    }
+                ],
+                "8002/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8002"
+                    }
+                ],
+                "8003/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8003"
+                    }
+                ],
+                "8004/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8004"
+                    }
+                ],
+                "8005/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8005"
+                    }
+                ],
+                "9000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9000"
+                    }
+                ],
+                "9001/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9001"
+                    }
+                ],
+                "9002/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9002"
+                    }
+                ],
+                "9003/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9003"
+                    }
+                ],
+                "9004/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9004"
+                    }
+                ],
+                "9005/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9005"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "\\\\wsl.localhost\\Ubuntu\\home\\sanjay\\frappe_docker",
+                "Destination": "/workspace",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "7229231cceea",
+            "Domainname": "",
+            "User": "frappe",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "6787/tcp": {},
+                "8000/tcp": {},
+                "8001/tcp": {},
+                "8002/tcp": {},
+                "8003/tcp": {},
+                "8004/tcp": {},
+                "8005/tcp": {},
+                "9000/tcp": {},
+                "9001/tcp": {},
+                "9002/tcp": {},
+                "9003/tcp": {},
+                "9004/tcp": {},
+                "9005/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "SHELL=/bin/bash",
+                "PATH=/home/frappe/.nvm/versions/node/v24.12.0/bin/:/home/frappe/.local/bin:/home/frappe/.pyenv/shims:/home/frappe/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "PYTHON_VERSION_V14=3.10.13",
+                "PYTHON_VERSION=3.14.2",
+                "PYENV_ROOT=/home/frappe/.pyenv",
+                "NODE_VERSION_14=16.20.2",
+                "NODE_VERSION=24.12.0",
+                "NVM_DIR=/home/frappe/.nvm"
+            ],
+            "Cmd": [
+                "sleep",
+                "infinity"
+            ],
+            "Image": "frappe_docker_devcontainer-frappe",
+            "Volumes": null,
+            "WorkingDir": "/workspace/development",
+            "Entrypoint": [
+                "/bin/sh",
+                "-c",
+                "echo Container started\n trap \"exit 0\" 15\n \n exec \"$@\"\n while sleep 1 \u0026 wait $!; do :; done",
+                "-"
+            ],
+            "Labels": {
+                "author": "frappé",
+                "com.docker.compose.config-hash": "e1082e4d503d59d42c40055f3347704fed8a04a1c33443b41a63036528916cf5",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:0aeda36d49ae20f2552e5ee33d12af78fd39585d0df0e28666c17fddfbe19f73",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "frappe_docker_devcontainer",
+                "com.docker.compose.project.config_files": "\\\\wsl.localhost\\Ubuntu\\home\\sanjay\\frappe_docker\\.devcontainer\\docker-compose.yml,C:\\Users\\sanja\\AppData\\Local\\Temp\\devcontainercli\\docker-compose\\docker-compose.devcontainer.build-1770378827160.yml,C:\\Users\\sanja\\AppData\\Local\\Temp\\devcontainercli\\docker-compose\\docker-compose.devcontainer.containerFeatures-1770378828337-8d2769b8-c9a5-4ce8-b816-e2ddb2954dd5.yml",
+                "com.docker.compose.project.working_dir": "\\\\wsl.localhost\\Ubuntu\\home\\sanjay\\frappe_docker\\.devcontainer",
+                "com.docker.compose.service": "frappe",
+                "com.docker.compose.version": "2.40.3",
+                "devcontainer.config_file": "\\\\wsl.localhost\\Ubuntu\\home\\sanjay\\frappe_docker\\.devcontainer\\devcontainer.json",
+                "devcontainer.local_folder": "\\\\wsl.localhost\\Ubuntu\\home\\sanjay\\frappe_docker",
+                "devcontainer.metadata": "{\"customizations\":{\"vscode\":{\"extensions\":[\"ms-python.python\"],\"settings\":{\"terminal.integrated.defaultProfile.linux\":\"bash\"}}},\"remoteUser\":\"frappe\",\"forwardPorts\":[8000,9000],\"shutdownAction\":\"stopCompose\"}"
+            },
+            "StopTimeout": 1
+        },
+        "NetworkSettings": {
+            "SandboxID": "b84261a3a9a45980de30244c0de80a8c9aacb516d8079e3f30a8376dae42c5dd",
+            "SandboxKey": "/var/run/docker/netns/b84261a3a9a4",
+            "Ports": {
+                "8000/tcp": [],
+                "8001/tcp": [],
+                "8002/tcp": [],
+                "8003/tcp": [],
+                "8004/tcp": [],
+                "8005/tcp": [],
+                "9000/tcp": [],
+                "9001/tcp": [],
+                "9002/tcp": [],
+                "9003/tcp": [],
+                "9004/tcp": [],
+                "9005/tcp": []
+            },
+            "Networks": {}
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:b6b81060ced97e3c54b16e663d938fad5e0328ba85c6eec601fe7144fb7da623",
+            "size": 2209,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]
